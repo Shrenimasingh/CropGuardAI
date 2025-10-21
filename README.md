@@ -39,12 +39,12 @@ CropGuardAI aims to empower farmers with **AI-assisted decision-making**, reduci
 
 ## Hackathon Submission
 
-- Hackathon: **Hack to Enable**  
+- Hackathon: **AWS AI Agent Global Hackathon**  
 - Domain: **AI-Powered Solutions – Agriculture**  
-- GitHub Repo: [https://github.com/yourusername/CropGuardAI](https://github.com/yourusername/CropGuardAI)
+- GitHub Repo: [https://github.com/Shrenimasingh/CropGuardAI](https://github.com/yourusername/CropGuardAI)
 
 ---
 
 ## Author
 
-**Your Name** – Hackathon Participant
+Shrenima Singh – Hackathon Participant
