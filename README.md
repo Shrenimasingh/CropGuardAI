@@ -1,50 +1,96 @@
-# CropGuardAI
+## 🌾 CropGuard AI
 
-**AI-powered Crop Health Assistant**  
-
-CropGuardAI is a prototype web application designed to help farmers monitor crop health using AI. Users can upload images of crops, and the system detects potential diseases, pests, or other issues, providing actionable recommendations to improve yield and prevent losses.
+**AI-powered precision-farming assistant** that uses IoT and computer vision to monitor crop health, detect early diseases, and recommend preventive actions.
 
 ---
 
-## Features
+### 🚀 Overview
 
-- **AI Crop Health Detection:** Simulates AI detection of diseases in crops.  
-- **Interactive Dashboard:** Displays crop status, health metrics, and suggested actions.  
-- **Clean & Modern UI:** Mobile-friendly and intuitive interface.  
-- **Demo Prototype:** Placeholder functionality demonstrates core concept.
+CropGuard AI is a smart agriculture solution developed for the **AWS AI Agent Global Hackathon 2025** on Devpost.
+It integrates **AI models, IoT sensors, and AWS services** to give farmers real-time crop insights — empowering data-driven and sustainable farming.
 
 ---
 
-## Technologies Used
+### 🧠 Key Features
 
-- **Frontend:** HTML, CSS, JavaScript  
-- **Prototype Tools:** Uizard / Replit AI  
-- **Version Control:** GitHub
-
----
-
-## How to Use
-
-1. Open the web prototype (link to live demo if using GitHub Pages).  
-2. Navigate the dashboard to view crop health insights.  
-3. Upload sample images to simulate AI analysis (if functionality available).  
+* 🌱 **Disease Detection:** AI analyzes leaf images to identify crop diseases early.
+* 🪲 **Pest Monitoring:** IoT sensors detect abnormal pest activity.
+* 🌦️ **Weather Forecasting:** Predicts local conditions for smarter irrigation and fertilizer planning.
+* 📊 **Smart Dashboard:** Visual interface showing alerts and actionable tips.
+* 🔄 **Scalable AWS Integration:** Uses AWS S3 for data, Lambda for automation, and Rekognition for image analysis.
 
 ---
 
-## Impact
+### 🧰 Tech Stack
 
-CropGuardAI aims to empower farmers with **AI-assisted decision-making**, reducing crop loss, and improving agricultural productivity. This prototype demonstrates **practical AI applications in agriculture** and can be extended into a full-fledged solution.
-
----
-
-## Hackathon Submission
-
-- Hackathon: **AWS AI Agent Global Hackathon**  
-- Domain: **AI-Powered Solutions – Agriculture**  
-- GitHub Repo: [https://github.com/Shrenimasingh/CropGuardAI](https://github.com/yourusername/CropGuardAI)
+| Category            | Technologies                                         |
+| ------------------- | ---------------------------------------------------- |
+| **Frontend**        | HTML · CSS · JavaScript                              |
+| **Backend / Cloud** | AWS Lambda · AWS S3 · AWS Rekognition · AWS IoT Core |
+| **AI Modeling**     | Python · TensorFlow / OpenCV                         |
+| **Other Tools**     | Figma · Canva · GitHub · Devpost                     |
 
 ---
 
-## Author
+### 🧩 Architecture Flow
 
-Shrenima Singh – Hackathon Participant
+```mermaid
+flowchart TD
+A[IoT Sensors & Drones] --> B[AWS IoT Core]
+B --> C[AWS Lambda Functions]
+C --> D[AWS S3 Data Storage]
+D --> E[AI Model for Disease Detection]
+E --> F[CropGuard Dashboard]
+```
+
+---
+
+### 🖥️ Getting Started
+
+#### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Shrenimasingh/CropGuardAI.git
+cd CropGuardAI
+```
+
+#### 2️⃣ Run Locally
+
+If prototype only:
+
+> Open `index.html` in your browser
+
+If Python backend:
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+
+---
+
+### 🌐 Live Demo / Prototype
+
+🪴 [View Hackathon Submission on Devpost](https://devpost.com/submit-to/26338-aws-ai-agent-global-hackathon/manage/submissions/822055-cropguardai-ai-powered-crop-health-assistant/project_details/edit)
+
+---
+
+
+
+
+---
+
+### ⚙️ Future Improvements
+
+* Integrate real sensor data with AWS IoT Core.
+* Expand AI model training to multi-crop datasets.
+* Add mobile support for farmer field access.
+
+---
+
+---
+
+### 📫 Contact
+
+📧 mohisingh008@gmail.com  |  🌐 (https://www.linkedin.com/in/shrenima-singh-2b6603332/)  |  🧾(https://cropguardai.my.canva.site/)
